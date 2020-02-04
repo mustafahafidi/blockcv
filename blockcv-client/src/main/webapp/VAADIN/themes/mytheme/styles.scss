@@ -1,0 +1,137 @@
+@import "mytheme.scss";
+@import "addons.scss";
+
+$v-app-background-color: rgba(250,250,250,0.5);
+
+.mytheme {
+  @include addons;
+  @include mytheme;
+  .v-generated-body {
+  	overflow: auto!important;
+  }
+  
+  .mytheme .v-loading-indicator {
+  	background: #0099d4!important;
+  }
+  .personalInfoSingle {
+  	font-weight: 900 !important;
+    font-style: italic !important;
+  }
+  /*.personalInfoCheck1 {
+  	    margin-left: -296px!important;
+    margin-top: 74px!important;
+    }
+    .personalInfoCheck2 {
+    margin-left: -262px !important;
+    margin-top: 38px !important;
+    }*/
+  .videoBackground {
+	  position: absolute;
+	  top: 50%; 
+	  left: 50%;
+	  -webkit-transform: translateX(-50%) translateY(-50%);
+	  transform: translateX(-50%) translateY(-50%);
+	  min-width: 100%; 
+	  min-height: 100%; 
+	  width: auto!important; 
+	  height: auto!important;
+	  z-index: -1000; 
+	  overflow: hidden;
+  	  z-index: -5;
+  	}
+.logo {
+    font-size: 1.4em;
+    margin: 20px;
+    font-weight: 100;
+  }
+  .homePageTitle {
+    font-size: 7em;
+    font-weight: 900;
+    margin-top: 4%!important;
+    margin-bottom: 70px;
+    //color: white;
+  }
+  .homePageSubtitle1 {
+     font-size: 1.2em;
+     font-style: italic;
+   }
+  .homePageSubtitle2 {
+    font-size: 1.5em;
+  }
+  .tryAppBtn {
+    margin-top:50px!important;
+  }
+  .homePageBackground{
+    //background: url('bg1.jpg') no-repeat;
+    background-size: cover;
+    //color: white;
+    height: 100%;
+  }
+  .pageTitle {
+    font-size: 2em;
+    padding-bottom: 40px;
+  }
+  .pageTextContent {
+    //width: 56%;
+    line-height: 1.9;
+    text-align: justify;
+  }
+  .logoFinity {    
+   width: 60px;
+   top: -8px;
+   position: absolute;
+   /* left: 2px; */
+   margin-left: 10px;
+   display:none;
+  }
+  .signupSplit, .manageCVsplit, .manageOfferSplit, .searchCVSplit, .searchOfferSplit, .candidateLayout {
+  	//border-top: 1px solid #bebebe;
+  	margin-top: 30px;
+  }
+  .experienceView, .offerView, .candidateView, .compactCVView {
+  	//border: 1px solid #bebebe;
+  	//border-radius: 10px;
+  	cursor: pointer;
+  }
+  .selectedExp, .selectedOffer, .selectedCV {
+   border: 1px solid blue;
+   border-radius: 10px;
+  }
+  .offerCompany {
+    font-size: 1.7em;
+  }
+  .offerTitle {
+   font-size: 1.5em;
+  }
+  .footer {
+   //background: white;
+  }
+  .scrollable {
+   overflow: visible;
+  }
+  .v-slot-footer {
+   z-index:999;
+   color: black;
+  }
+  .v-slot-footer .v-label {
+   /* margin-top: -34px; */
+   padding: 50px;
+  }
+  .contentView {
+    padding-top: 100px!important;
+    padding-bottom: 100px!important;
+    z-index: 
+  }
+
+  .v-popupview-popup {
+    position: fixed!important;
+    top: 10%!important;
+    box-shadow: 43px 24px 22px 1000px  rgba(0, 0, 0, 0.5294117647058824);
+  }
+  .mainPageView {
+  	padding: 0!important;
+  }
+  .v-slot-contentView {
+  	height: auto!important;
+  }
+}

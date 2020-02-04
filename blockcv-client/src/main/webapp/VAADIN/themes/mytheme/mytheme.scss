@@ -1,0 +1,7 @@
+$v-focus-color: #00BCD4;
+@import "../material/material.scss"; 
+
+@mixin mytheme {
+  @include material;// Insert your own theme rules here
+  
+}
